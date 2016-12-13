@@ -1,5 +1,9 @@
 @import 'resets';
-@import 'color_varibles';
-@import 'size_varibles';
+@import 'color-variables';
+@import 'size-variables';
 @import 'header';
 @import 'footer';
+
+.sass-working-test {
+  background-color: $background-color-alert;
+}
