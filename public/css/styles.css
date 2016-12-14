@@ -1,6 +1,28 @@
-body, html {
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+html, body, h1, h2, h3, ul, li {
   padding: 0px;
   margin: 0px; }
+
+ul {
+  list-style: none; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+.body-container {
+  background-color: blue;
+  flex: 1; }
 
 .sass-working-test {
   background-color: red; }
