@@ -39,6 +39,16 @@ footer {
   flex: 1;
   background: url("../images/footer_signature.png") no-repeat center/contain; }
 
+.footer-content-section__link {
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  display: flex;
+  flex: 1; }
+  .footer-content-section__link:hover {
+    color: purple;
+    text-decoration: underline; }
+
 .body-container {
   background-color: blue;
   flex: 1; }

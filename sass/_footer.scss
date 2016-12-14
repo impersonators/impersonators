@@ -14,3 +14,16 @@
     flex: 1;
     background: url('../images/footer_signature.png') no-repeat center / contain;
   }
+
+  .footer-content-section__link {
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    flex: 1;
+
+    &:hover {
+      color: $font-color-hover;
+      text-decoration: underline;
+    }
+  }
