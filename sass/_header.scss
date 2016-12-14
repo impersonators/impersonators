@@ -1,5 +1,7 @@
 // header styles here
 .nav-drawer {
+  // position: fixed;
+  max-height: 100vh;
   flex: 1;
   background: url('../images/header_face_logo.png') no-repeat center / contain;
   background-color: $background-color-alternate;

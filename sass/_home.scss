@@ -1,0 +1,19 @@
+.parallax-img-large {
+  height: 500px;
+  background: url('../images/frank_leaning.jpeg') center /cover;
+}
+
+.parallax-img-medium {
+  height: 400px;
+  background: url('../images/frank_smiling.jpg') center /cover;
+}
+
+.parallax-img-small {
+  height: 400px;
+  background: url('../images/frank_young.jpg') center /cover;
+}
+
+.parallax-content-large {
+  height: 200px;
+  background-color: $background-color-main;
+}

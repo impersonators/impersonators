@@ -26,6 +26,7 @@ footer {
   flex: 1; }
 
 .nav-drawer {
+  max-height: 100vh;
   flex: 1;
   background: url("../images/header_face_logo.png") no-repeat center/contain;
   background-color: orange; }
@@ -91,6 +92,22 @@ footer {
 .contact-content__form__input {
   width: 264px;
   height: 44px; }
+
+.parallax-img-large {
+  height: 500px;
+  background: url("../images/frank_leaning.jpeg") center/cover; }
+
+.parallax-img-medium {
+  height: 400px;
+  background: url("../images/frank_smiling.jpg") center/cover; }
+
+.parallax-img-small {
+  height: 400px;
+  background: url("../images/frank_young.jpg") center/cover; }
+
+.parallax-content-large {
+  height: 200px;
+  background-color: blue; }
 
 .sass-working-test {
   background-color: red; }
