@@ -1,26 +1,29 @@
-.contact-container{
-	display:flex;
-	flex: 1;
-}
-.contact-container__body{
-	display: flex;
-	flex: 1;
-	flex-direction: column;
-}
 .contact-heading{
 	display: flex;
-	flex: 1;
+	flex: 4;
 	justify-content: space-around;
+	align-items: center;
+	font-size: $font-size-jumbo;
 }
 .contact-content{
 	display: flex;
-	flex: 11;
+	flex: 7;
 	flex-direction: row;
 	justify-content: space-around;
-	align-items: center;
+	font-size: $font-size-jumbo*1.5;
 }
 
 .contact-content__form{
 	display:flex;
 	flex-direction: column;
+}
+
+.contact-content__form__label{
+	margin: $font-size-jumbo/2;
+	text-align: center;
+}
+
+.contact-content__form__input{
+	width: $font-size-jumbo*12;
+	height: $font-size-jumbo*2;
 }

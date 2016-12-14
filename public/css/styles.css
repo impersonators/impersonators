@@ -62,32 +62,34 @@ footer {
 
 .main-container {
   display: flex;
-  flex: 1; }
-
-.contact-container {
-  display: flex;
-  flex: 1; }
-
-.contact-container__body {
-  display: flex;
   flex: 1;
   flex-direction: column; }
 
 .contact-heading {
   display: flex;
-  flex: 1;
-  justify-content: space-around; }
+  flex: 4;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 22px; }
 
 .contact-content {
   display: flex;
-  flex: 11;
+  flex: 7;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center; }
+  font-size: 33px; }
 
 .contact-content__form {
   display: flex;
   flex-direction: column; }
+
+.contact-content__form__label {
+  margin: 11px;
+  text-align: center; }
+
+.contact-content__form__input {
+  width: 264px;
+  height: 44px; }
 
 .sass-working-test {
   background-color: red; }
