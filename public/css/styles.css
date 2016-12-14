@@ -88,25 +88,25 @@ footer {
 
   display: flex;
   padding: 5px;
-  border: 5px solid #c3a4c3;
+  border: 5px solid purple;
   height: 300px;
   background-color: #fbfbfb; }
 
 .parallax-content-small {
   display: flex;
   padding: 5px;
-  border: 5px solid #c3a4c3;
+  border: 5px solid purple;
   height: 200px;
   background-color: #fbfbfb; }
 
 .parallax-bar-container {
-  border: 5px solid black;
+  border: 5px solid #c3a4c3;
   display: flex;
   flex: 1;
   padding: 5px; }
 
 .parallax-bar-container__section {
-  border: 5px solid #c7c0c0;
+  border: 5px solid #744b74;
   display: flex;
   flex: 1; }
 
@@ -146,7 +146,9 @@ footer {
 .contact-content__form__input {
 
 
-.sass-working-test {
-  background-color: #744b74; }
+.page-header {
+  background-color: #c3a4c3;
+  font-weight: normal;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
