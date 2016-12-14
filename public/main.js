@@ -1,1 +1,3 @@
-//comment so it isn't empty
+window.onload = function(){
+  
+}
