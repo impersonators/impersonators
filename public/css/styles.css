@@ -77,11 +77,7 @@ footer {
   flex-direction: column; }
 
 .parallax-img-large {
-  height: 600px;
-  background: url("../images/frank_leaning.jpeg") center/cover; }
 
-.parallax-img-medium {
-  height: 500px;
   background: url("../images/frank_smiling.jpg") center/cover; }
 
 .parallax-img-small {
@@ -89,6 +85,7 @@ footer {
   background: url("../images/frank_young.jpg") center/cover; }
 
 .parallax-content-large {
+
   display: flex;
   padding: 5px;
   border: 5px solid #c3a4c3;
@@ -129,7 +126,7 @@ footer {
 
 .contact-heading {
   display: flex;
-  flex: 4;
+  flex: 2;
   justify-content: space-around;
   align-items: center;
   font-size: 22px; }
@@ -143,15 +140,11 @@ footer {
 
 .contact-content__form {
   display: flex;
-  flex-direction: column; }
-
-.contact-content__form__label {
-  margin: 11px;
-  text-align: center; }
+  flex-direction: column;
+  align-items: center; }
 
 .contact-content__form__input {
-  width: 264px;
-  height: 44px; }
+
 
 .sass-working-test {
   background-color: #744b74; }
