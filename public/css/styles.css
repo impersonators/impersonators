@@ -61,7 +61,33 @@ footer {
   flex: 7; }
 
 .main-container {
+  display: flex;
   flex: 1; }
+
+.contact-container {
+  display: flex;
+  flex: 1; }
+
+.contact-container__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column; }
+
+.contact-heading {
+  display: flex;
+  flex: 1;
+  justify-content: space-around; }
+
+.contact-content {
+  display: flex;
+  flex: 11;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+.contact-content__form {
+  display: flex;
+  flex-direction: column; }
 
 .sass-working-test {
   background-color: red; }
