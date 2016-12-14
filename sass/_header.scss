@@ -1,7 +1,8 @@
 // header styles here
 .nav-drawer {
-  background-color: $background-color-alternate;
   flex: 1;
+  background: url('../images/header_face_logo.png') no-repeat center / contain;
+  background-color: $background-color-alternate;
 }
 
 // .header-group__face-logo {

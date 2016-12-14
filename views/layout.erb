@@ -11,7 +11,7 @@
 			<header>
 				<nav>
 					<ul>
-					<% Links.each do |url, name| %>
+					<% @local_links.each do |url, name| %>
 						<li><a href="<%= url %>"><%= name %></a></li>
 					<% end %>
 					</ul>
@@ -20,9 +20,9 @@
 		</div>
 
 		<div class="body-container">
-			
-			<div class="main-container">
 
+			<div class="main-container">
+				<h1 class="sass-working-test"><%= @page_title %></h1>
 			<%= yield %>
 
 			</div>
@@ -34,7 +34,7 @@
 						</div>
 					</div>
 					<div class="footer-content-section">
-						<% Links.each do |url, name| %>
+						<% @local_links.each do |url, name| %>
 							<a href="<%= url %>" class="footer-content-section__link"><%= name %></a>
 						<% end %>
 					</div>
