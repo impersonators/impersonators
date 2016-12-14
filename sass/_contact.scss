@@ -1,6 +1,6 @@
 .contact-heading{
 	display: flex;
-	flex: 4;
+	flex: 2;
 	justify-content: space-around;
 	align-items: center;
 	font-size: $font-size-jumbo;
@@ -16,14 +16,27 @@
 .contact-content__form{
 	display:flex;
 	flex-direction: column;
-}
-
-.contact-content__form__label{
-	margin: $font-size-jumbo/2;
-	text-align: center;
+	align-items: center;
 }
 
 .contact-content__form__input{
-	width: $font-size-jumbo*12;
+	font-size: $font-size-jumbo;
+	text-align: center;
+	width: $font-size-jumbo*16;
 	height: $font-size-jumbo*2;
+	margin-top: $font-size-jumbo;
+}
+
+.contact-content__form__input__message{
+	font-size: $font-size-jumbo;
+	text-align: center;
+	width: $font-size-jumbo*16;
+	height: $font-size-jumbo*8;
+	margin-top: $font-size-jumbo;
+	margin-bottom: $font-size-jumbo*1.75;
+	padding: 0px;
+}
+
+.contact-content__button__image{
+	height: $font-size-jumbo*6;
 }

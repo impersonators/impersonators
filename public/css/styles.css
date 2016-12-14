@@ -26,10 +26,19 @@ footer {
   flex: 1; }
 
 .nav-drawer {
-  max-height: 100vh;
   flex: 1;
-  background: url("../images/header_face_logo.png") no-repeat center/contain;
-  background-color: orange; }
+  background-color: orange;
+  position: relative; }
+
+.nav-drawer__links {
+  position: fixed; }
+
+.nav-drawer__image {
+  margin-top: 150px;
+  position: fixed;
+  height: 300px;
+  width: 100px;
+  background: url("../images/header_face_logo.png") no-repeat center/contain; }
 
 .footer {
   background-color: green;
@@ -68,11 +77,15 @@ footer {
   flex-direction: column; }
 
 .parallax-img-large {
+<<<<<<< HEAD
   height: 500px;
   background: url("../images/frank_leaning.jpeg") center/cover; }
 
 .parallax-img-medium {
   height: 400px;
+=======
+
+>>>>>>> 23eab2a0fec79aaca30177dbcf76ed0f6d5f01bb
   background: url("../images/frank_smiling.jpg") center/cover; }
 
 .parallax-img-small {
@@ -80,12 +93,15 @@ footer {
   background: url("../images/frank_young.jpg") center/cover; }
 
 .parallax-content-large {
+<<<<<<< HEAD
   height: 200px;
   background-color: blue; }
+=======
+>>>>>>> 23eab2a0fec79aaca30177dbcf76ed0f6d5f01bb
 
 .contact-heading {
   display: flex;
-  flex: 4;
+  flex: 2;
   justify-content: space-around;
   align-items: center;
   font-size: 22px; }
@@ -99,15 +115,16 @@ footer {
 
 .contact-content__form {
   display: flex;
-  flex-direction: column; }
-
-.contact-content__form__label {
-  margin: 11px;
-  text-align: center; }
+  flex-direction: column;
+  align-items: center; }
 
 .contact-content__form__input {
+<<<<<<< HEAD
   width: 264px;
   height: 44px; }
+=======
+
+>>>>>>> 23eab2a0fec79aaca30177dbcf76ed0f6d5f01bb
 
 .sass-working-test {
   background-color: red; }
