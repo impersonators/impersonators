@@ -10,13 +10,18 @@
 
 		<div class="nav-drawer">
 			<header>
-				<nav>
-					<ul>
-					<% @local_links.each do |url, name| %>
-						<li><a href="<%= url %>"><%= name %></a></li>
-					<% end %>
-					</ul>
-				</nav>
+				<div class="nav-drawer__links">
+					<nav>
+						<ul>
+						<% @local_links.each do |url, name| %>
+							<li><a href="<%= url %>"><%= name %></a></li>
+						<% end %>
+						</ul>
+					</nav>
+				</div>
+				<div class="nav-drawer__image">
+
+				</div>
 			</header>
 		</div>
 
