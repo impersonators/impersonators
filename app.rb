@@ -8,12 +8,38 @@ Links = {
 	"/gallery" 	=> "Gallery",
 }
 
+def serve_correct_links
+	links = {}
+	Links.each do |k, v|
+		if v != @page_title
+			links[k] = v
+		end
+	end
+	links
+end
+
 get '/' do
+	@page_title = "Home"
+	@local_links = serve_correct_links
 	erb :home
 end
 
 get '/contact' do
+	@page_title = "Contact"
+	@local_links = serve_correct_links
   erb :contact
+end
+
+get '/about' do
+	@page_title = "About"
+	@local_links = serve_correct_links
+  erb :about
+end
+
+get '/gallery' do
+	@page_title = "Gallery"
+	@local_links = serve_correct_links
+  erb :gallery
 end
 
 #naming params from contact page
@@ -24,7 +50,7 @@ post '/contact' do
   @email = params[:email]
   @content = params[:message]
   @subject = "Impersonators NYCDA Emails"
- 
+
 	from = SendGrid::Email.new(email: @email)
 	subject = @subject
 	#below is where you can put your own email to test it
@@ -39,5 +65,3 @@ post '/contact' do
 
 	erb :contact
 end
-
-

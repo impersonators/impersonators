@@ -26,8 +26,9 @@ footer {
   flex: 1; }
 
 .nav-drawer {
-  background-color: orange;
-  flex: 1; }
+  flex: 1;
+  background: url("../images/header_face_logo.png") no-repeat center/contain;
+  background-color: orange; }
 
 .footer {
   background-color: green;
