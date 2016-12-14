@@ -1,1 +1,16 @@
-// footer styles
+.footer {
+  height: $footer-height;
+  display: flex;
+}
+
+.footer-content-section {
+  display: flex;
+  flex: 1;
+}
+
+  .footer-content-section__signature {
+    padding: 5px;
+    display: flex;
+    flex: 1;
+    background: url('../images/footer_signature.png') no-repeat center / contain;
+  }
