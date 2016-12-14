@@ -46,10 +46,12 @@ end
 #getting SendGrid set up for contact page
 
 post '/contact' do
-  @name = params[:name].upcase
-  @email = params[:email]
-  @content = params[:message]
-  @subject = "Impersonators NYCDA Emails"
+	@page_title = "Contact"
+	@local_links = serve_correct_links
+  	@name = params[:name].upcase
+  	@email = params[:email]
+  	@content = params[:message]
+  	@subject = "Impersonators NYCDA Emails"
 
 	from = SendGrid::Email.new(email: @email)
 	subject = @subject
