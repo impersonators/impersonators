@@ -63,7 +63,35 @@ footer {
   flex: 7; }
 
 .main-container {
-  flex: 1; }
+  display: flex;
+  flex: 1;
+  flex-direction: column; }
+
+.contact-heading {
+  display: flex;
+  flex: 4;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 22px; }
+
+.contact-content {
+  display: flex;
+  flex: 7;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 33px; }
+
+.contact-content__form {
+  display: flex;
+  flex-direction: column; }
+
+.contact-content__form__label {
+  margin: 11px;
+  text-align: center; }
+
+.contact-content__form__input {
+  width: 264px;
+  height: 44px; }
 
 .parallax-img-large {
   height: 500px;
