@@ -30,6 +30,7 @@ footer {
   flex: 1; }
 
 .footer {
+  background-color: green;
   height: 70px;
   display: flex; }
 
