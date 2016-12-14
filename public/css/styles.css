@@ -18,11 +18,15 @@ a {
 body {
   display: flex;
   min-height: 100vh;
-  flex-direction: column;
+  flex-direction: row;
   font-family: 'Roboto', sans-serif; }
 
 footer {
   display: flex;
+  flex: 1; }
+
+.nav-drawer {
+  background-color: orange;
   flex: 1; }
 
 .footer {
@@ -50,7 +54,12 @@ footer {
     text-decoration: underline; }
 
 .body-container {
+  display: flex;
+  flex-direction: column;
   background-color: blue;
+  flex: 7; }
+
+.main-container {
   flex: 1; }
 
 .sass-working-test {
