@@ -7,25 +7,41 @@
 </head>
 <body>
 
-	<div class="body-container">
+		<div class="nav-drawer">
+			<header>
+				<nav>
+					<ul>
+					<% Links.each do |url, name| %>
+						<li><a href="<%= url %>"><%= name %></a></li>
+					<% end %>
+					</ul>
+				</nav>
+			</header>
+		</div>
 
-		<%= yield %>
+		<div class="body-container">
+			
+			<div class="main-container">
 
-	</div>
+			<%= yield %>
 
-	<div class="footer">
-		<footer>
-			<div class="footer-content-section">
-				<div class="footer-content-section__signature">
-				</div>
 			</div>
-			<div class="footer-content-section">
-				<% Links.each do |url, name| %>
-					<a href="<%= url %>" class="footer-content-section__link"><%= name %></a>
-				<% end %>
+
+			<div class="footer">
+				<footer>
+					<div class="footer-content-section">
+						<div class="footer-content-section__signature">
+						</div>
+					</div>
+					<div class="footer-content-section">
+						<% Links.each do |url, name| %>
+							<a href="<%= url %>" class="footer-content-section__link"><%= name %></a>
+						<% end %>
+					</div>
+				</footer>
 			</div>
-		</footer>
-	</div>
+
+		</div>
 
 </body>
 </html>
