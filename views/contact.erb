@@ -1,0 +1,22 @@
+<h1 class="sass-working-test"> Contact Us</h1>
+
+<form method="POST" action="/contact">
+  <label for="email">Email</label>
+  <input type="text" name="email">
+
+  <label for="name">Name</label>
+  <input type="name" name="name">
+
+  <label for="message">Message</label>
+  <input type="text" name="message">
+
+  <input type="submit">
+</form>
+
+<p>Your name is: <%= @name %></p>
+
+<p>Your email is: <%= @email %></p>
+
+<p>Your message is: <%= @content %></p>
+
+<h2>Thanks! I'll get back to you soon.</h2>
