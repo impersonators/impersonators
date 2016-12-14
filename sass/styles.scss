@@ -9,6 +9,8 @@
 @import 'contact';
 
 
-.sass-working-test {
-  background-color: $background-color-alert;
+.page-header {
+  background-color: $background-color-highlight;
+  font-weight: normal;
+  text-align: center;
 }

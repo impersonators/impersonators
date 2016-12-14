@@ -16,7 +16,7 @@
 .parallax-content-large {
   display: flex;
   padding: 5px;
-  border: 5px solid $background-color-highlight;
+  border: 5px solid $background-color-hover;
   height: 300px;
   background-color: $background-color-main;
 }
@@ -24,20 +24,20 @@
 .parallax-content-small {
   display: flex;
   padding: 5px;
-  border: 5px solid $background-color-highlight;
+  border: 5px solid $background-color-hover;
   height: 200px;
   background-color: $background-color-main;
 }
 
 .parallax-bar-container {
-  border: 5px solid $background-color-border;
+  border: 5px solid $background-color-highlight;
   display: flex;
   flex: 1;
   padding: 5px;
 }
 
 .parallax-bar-container__section {
-  border: 5px solid $background-color-attention;
+  border: 5px solid $background-color-alert;
   display: flex;
   flex: 1;
 }
