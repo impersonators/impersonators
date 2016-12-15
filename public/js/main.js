@@ -1,4 +1,5 @@
 window.onload = function(){
+
 	//set variable for button image
 	var buttonImage = document.getElementById('contact-content__button__image');
 
@@ -20,7 +21,12 @@ window.onload = function(){
 	messageInput.addEventListener('click', function(){
 		valueClear(messageInput)
 	});
+
+
+
 }
+
+
 
 //change input boxes to greeting on click	
 function changeContent(){
@@ -39,5 +45,6 @@ function changeContent(){
 //change input boxes to clear on focus
 function valueClear(input){
 	input.value = " ";
+
 };
 

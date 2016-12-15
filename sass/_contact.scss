@@ -1,4 +1,5 @@
-#contact-heading {
+
+#contact-heading{
 	display: flex;
 	flex: 2;
 	justify-content: space-around;
@@ -33,6 +34,21 @@
 	align-items: center;
 }
 
+#contact-content__form__empty-content{
+	display:flex;
+	flex: 2;
+	flex-direction:column;
+	align-items: center;
+
+}
+
+#contact-content__form__submitted-content{
+	display:none;
+	flex: 2;
+	flex-direction: column;
+	align-items:center;
+}
+
 .contact-content__form__input{
 	font-size: $font-size-jumbo;
 	text-align: center;
@@ -51,8 +67,8 @@
 	padding: 0px;
 }
 
-#contact-content__button {
-  	display: flex;
+#contact-content__button{
+	display: flex;
 	flex: 1;
 	margin-bottom: $font-size-jumbo*2;
 	background-color: white;
