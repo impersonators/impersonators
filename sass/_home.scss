@@ -73,10 +73,22 @@
   padding-right: 8px;
   display: flex;
   flex: 3;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 1.5;
+  font-size: $font-size-medium;
+  letter-spacing: $font-size-medium/8;
+}
+
+#parallax-bar-container__section--content__span {
+  letter-spacing: $font-size-large/3;
+  font-size: $font-size-medium*1.25;
+  text-align: center;
+  display: block;
 }
 
 .parallax-bar-container__section--button {
-  margin: 25% 20%;
+  margin: 25% 15%;
   display: flex;
   flex: 1;
   font-size: $font-size-jumbo;
@@ -87,3 +99,19 @@
     background-color: $background-color-alternate;
   }
 }
+
+.parallax-img-large{
+  display: flex;
+  align-items: center;
+}
+.parallax-img-large__h1{
+  display: flex;
+  font-size: $font-size-jumbo*6;
+  color: $font-color-main;
+  letter-spacing: $font-size-medium/4;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.2);
+}
+
+
+

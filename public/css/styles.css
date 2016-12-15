@@ -146,10 +146,21 @@ footer {
   padding-left: 8px;
   padding-right: 8px;
   display: flex;
-  flex: 3; }
+  flex: 3;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 2px; }
+
+#parallax-bar-container__section--content__span {
+  letter-spacing: 6px;
+  font-size: 20px;
+  text-align: center;
+  display: block; }
 
 .parallax-bar-container__section--button {
-  margin: 25% 20%;
+  margin: 25% 15%;
   display: flex;
   flex: 1;
   font-size: 22px;
@@ -158,6 +169,18 @@ footer {
   border: 2px solid black; }
   .parallax-bar-container__section--button :hover {
     background-color: #7e7e7e; }
+
+.parallax-img-large {
+  display: flex;
+  align-items: center; }
+
+.parallax-img-large__h1 {
+  display: flex;
+  font-size: 132px;
+  color: #fbfbfb;
+  letter-spacing: 4px;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.2); }
 
 #contact-heading {
   display: flex;
