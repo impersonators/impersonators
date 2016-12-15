@@ -157,7 +157,13 @@ footer {
   letter-spacing: 6px;
   font-size: 20px;
   text-align: center;
-  display: block; }
+  display: block;
+  border-top-width: 6px;
+  border-top-style: double;
+  border-top-color: #c3a4c3;
+  border-bottom-width: 6px;
+  border-bottom-style: double;
+  border-bottom-color: #c3a4c3; }
 
 .parallax-bar-container__section--button {
   margin: 25% 15%;
@@ -166,9 +172,10 @@ footer {
   font-size: 22px;
   justify-content: center;
   align-items: center;
-  border: 2px solid black; }
-  .parallax-bar-container__section--button :hover {
-    background-color: #7e7e7e; }
+  border-style: outset; }
+  .parallax-bar-container__section--button:hover {
+    background-color: #7e7e7e;
+    color: #fbfbfb; }
 
 .parallax-img-large {
   display: flex;
