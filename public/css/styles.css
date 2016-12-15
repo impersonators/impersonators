@@ -26,18 +26,25 @@ footer {
   flex: 1; }
 
 .nav-drawer {
+  display: flex;
   flex: 1;
   background-color: #7e7e7e;
-  position: relative; }
+  position: relative;
+  border-right: 1px solid #fbfbfb; }
+  .nav-drawer header, .nav-drawer ul, .nav-drawer li, .nav-drawer nav, .nav-drawer a {
+    display: flex;
+    flex: 1; }
 
 .nav-drawer__links {
-  position: fixed; }
+  display: flex;
+  flex: 1;
+  justify-content: center; }
 
 .nav-drawer__image {
   margin-top: 150px;
   position: fixed;
   height: 300px;
-  width: 100px;
+  width: 175px;
   background: url("../images/header_face_logo.png") no-repeat center/contain; }
 
 .footer {
@@ -77,7 +84,11 @@ footer {
   flex-direction: column; }
 
 .parallax-img-large {
+  height: 600px;
+  background: url("../images/frank_leaning.jpeg") center/cover; }
 
+.parallax-img-medium {
+  height: 500px;
   background: url("../images/frank_smiling.jpg") center/cover; }
 
 .parallax-img-small {
@@ -85,7 +96,6 @@ footer {
   background: url("../images/frank_young.jpg") center/cover; }
 
 .parallax-content-large {
-
   display: flex;
   padding: 5px;
   border: 5px solid purple;
@@ -108,7 +118,8 @@ footer {
 .parallax-bar-container__section {
   border: 5px solid #744b74;
   display: flex;
-  flex: 1; }
+  flex: 1;
+  flex-direction: column; }
 
 .parallax-bar-container__logo {
   display: flex;
@@ -123,6 +134,30 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.parallax-bar-container__section--heading {
+  display: flex;
+  flex: 1;
+  font-size: 22px;
+  justify-content: center;
+  align-items: center; }
+
+.parallax-bar-container__section--content {
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  flex: 3; }
+
+.parallax-bar-container__section--button {
+  margin: 25% 20%;
+  display: flex;
+  flex: 1;
+  font-size: 22px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black; }
+  .parallax-bar-container__section--button :hover {
+    background-color: #7e7e7e; }
 
 .contact-heading {
   display: flex;
@@ -144,7 +179,23 @@ footer {
   align-items: center; }
 
 .contact-content__form__input {
+  font-size: 22px;
+  text-align: center;
+  width: 352px;
+  height: 44px;
+  margin-top: 22px; }
 
+.contact-content__form__input__message {
+  font-size: 22px;
+  text-align: center;
+  width: 352px;
+  height: 176px;
+  margin-top: 22px;
+  margin-bottom: 38.5px;
+  padding: 0px; }
+
+.contact-content__button__image {
+  height: 132px; }
 
 .page-header {
   background-color: #c3a4c3;

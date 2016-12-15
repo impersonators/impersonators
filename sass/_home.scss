@@ -40,6 +40,7 @@
   border: 5px solid $background-color-alert;
   display: flex;
   flex: 1;
+  flex-direction: column;
 }
 
 .parallax-bar-container__logo {
@@ -57,4 +58,32 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.parallax-bar-container__section--heading {
+  display: flex;
+  flex: 1;
+  font-size: $font-size-jumbo;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-bar-container__section--content {
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  flex: 3;
+}
+
+.parallax-bar-container__section--button {
+  margin: 25% 20%;
+  display: flex;
+  flex: 1;
+  font-size: $font-size-jumbo;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid $background-color-border;
+  :hover {
+    background-color: $background-color-alternate;
+  }
 }
