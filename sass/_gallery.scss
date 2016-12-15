@@ -1,0 +1,55 @@
+.gallery-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-base {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  height: $card_height;
+  width: $card_width;
+  background: $background-color-attention;
+  border-width: 6px;
+  border-style: double;
+  border-color: $background-color-alert;
+}
+
+.card-base__photo {
+ width: $card_photo_width;
+ height: $card_photo_height;
+ border-radius: 50%;
+ overflow: hidden;
+
+ .photo {
+    height: $card_photo_height;
+    max-width: $card_photo_width;
+ }
+}
+
+.card-base__title {
+  color: $font-color-hover;
+}
+
+.card-base__hire {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: {
+    top-width: 6px;
+    top-style: double;
+    top-color: black;
+    bottom-width: 6px;
+    bottom-style: double;
+    bottom-color: black;
+  }
+
+
+
+
+
+
+}

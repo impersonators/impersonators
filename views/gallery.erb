@@ -1,5 +1,15 @@
-<h2>List of impersonators with images</h2>
-<% Impersonators.each do |name, image| %>
-<%= name %><br>
-<img src="<%= image %>" alt="photo of impersonator <%= name %>" />
-<% end %>
+<div class="gallery-body">
+  <% Impersonators.each do |name, image| %>
+  <div class="card-base">
+    <div class="card-base__title">
+      <%= name %>
+    </div>
+    <div class="card-base__photo">
+        <img class="photo" src="<%= image %>" alt="photo of impersonator <%= name %>" />
+    </div>
+    <div class="card-base__hire">
+      Hire <%= name %>
+    </div>
+  </div>
+  <% end %>
+</div>

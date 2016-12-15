@@ -227,6 +227,47 @@ footer {
 #contact-content__button__image {
   height: 132px; }
 
+.gallery-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.card-base {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  height: 575px;
+  width: 275px;
+  background: #c7c0c0;
+  border-width: 6px;
+  border-style: double;
+  border-color: #744b74; }
+
+.card-base__photo {
+  width: 235px;
+  height: 375px;
+  border-radius: 50%;
+  overflow: hidden; }
+  .card-base__photo .photo {
+    height: 375px;
+    max-width: 235px; }
+
+.card-base__title {
+  color: purple; }
+
+.card-base__hire {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top-width: 6px;
+  border-top-style: double;
+  border-top-color: black;
+  border-bottom-width: 6px;
+  border-bottom-style: double;
+  border-bottom-color: black; }
+
 .page-header {
   background-color: #c3a4c3;
   font-weight: normal;
