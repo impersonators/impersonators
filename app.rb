@@ -56,7 +56,7 @@ post '/contact' do
 	from = SendGrid::Email.new(email: @email)
 	subject = @subject
 	#below is where you can put your own email to test it
-	to = SendGrid::Email.new(email: 'eitherbrynneordevin@test.com')
+	to = SendGrid::Email.new(email: 'tester@tester.com')
 	content = SendGrid::Content.new(type: 'text/plain', value: @content)
 	mail = SendGrid::Mail.new(from, subject, to, content)
 	sg = SendGrid::API.new(api_key: ENV['SENDGRID_API_KEY'])
