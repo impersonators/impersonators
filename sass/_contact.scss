@@ -1,3 +1,4 @@
+
 #contact-heading{
 	display: flex;
 	flex: 2;
@@ -11,6 +12,20 @@
 	flex-direction: row;
 	justify-content: space-around;
 	font-size: $font-size-jumbo*1.5;
+}
+
+#contact-content__form__empty-content {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  align-items: center; 
+}
+
+#contact-content__form__submitted-content {
+  display: none;
+  flex: 2;
+  flex-direction: column;
+  align-items: center; 
 }
 
 .contact-content__form{
@@ -59,6 +74,6 @@
 	background-color: white;
 }
 
-#contact-content__button__image{
+#contact-content__button__image {
 	height: $font-size-jumbo*6;
 }

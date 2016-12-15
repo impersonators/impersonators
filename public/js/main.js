@@ -22,7 +22,10 @@ window.onload = function(){
 		valueClear(messageInput)
 	});
 
+
+
 }
+
 
 
 //change input boxes to greeting on click	
@@ -42,4 +45,6 @@ function changeContent(){
 //change input boxes to clear on focus
 function valueClear(input){
 	input.value = " ";
+
 };
+
