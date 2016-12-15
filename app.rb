@@ -8,6 +8,15 @@ Links = {
 	"/gallery" 	=> "Gallery",
 }
 
+Impersonators = {
+	"Bob Jones" => "../images/impersonators/bob_jones.jpg",
+	"Brad Tupree" => "../images/impersonators/brad_tupree.jpg",
+	"Bubby Graham" => "../images/impersonators/bubby_graham.jpg",
+	"Frank Ellis" => "../images/impersonators/frank_ellis.jpg",
+	"Nick DiTone" => "../images/impersonators/nick_ditone.jpg",
+	"Rick Jacobs" => "../images/impersonators/rick_jacobs.jpg",
+}
+
 def serve_correct_links
 	links = {}
 	Links.each do |k, v|

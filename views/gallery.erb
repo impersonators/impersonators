@@ -1,0 +1,5 @@
+<h2>List of impersonators with images</h2>
+<% Impersonators.each do |name, image| %>
+<%= name %><br>
+<img src="<%= image %>" alt="photo of impersonator <%= name %>" />
+<% end %>
