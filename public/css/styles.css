@@ -26,18 +26,25 @@ footer {
   flex: 1; }
 
 .nav-drawer {
+  display: flex;
   flex: 1;
   background-color: #7e7e7e;
-  position: relative; }
+  position: relative;
+  border-right: 1px solid #fbfbfb; }
+  .nav-drawer header, .nav-drawer ul, .nav-drawer li, .nav-drawer nav, .nav-drawer a {
+    display: flex;
+    flex: 1; }
 
 .nav-drawer__links {
-  position: fixed; }
+  display: flex;
+  flex: 1;
+  justify-content: center; }
 
 .nav-drawer__image {
   margin-top: 150px;
   position: fixed;
   height: 300px;
-  width: 100px;
+  width: 175px;
   background: url("../images/header_face_logo.png") no-repeat center/contain; }
 
 .footer {
@@ -111,7 +118,8 @@ footer {
 .parallax-bar-container__section {
   border: 5px solid #744b74;
   display: flex;
-  flex: 1; }
+  flex: 1;
+  flex-direction: column; }
 
 .parallax-bar-container__logo {
   display: flex;
@@ -127,65 +135,3 @@ footer {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#contact-heading {
-  display: flex;
-  flex: 2;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 22px; }
-
-.contact-content {
-  display: flex;
-  flex: 7;
-  flex-direction: row;
-  justify-content: space-around;
-  font-size: 33px; }
-
-.contact-content__form {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-#contact-content__form__empty-content {
-  display: flex;
-  flex: 2;
-  flex-direction: column;
-  align-items: center; }
-
-#contact-content__form__submitted-content {
-  display: none;
-  flex: 2;
-  flex-direction: column;
-  align-items: center; }
-
-.contact-content__form__input {
-  font-size: 22px;
-  text-align: center;
-  width: 352px;
-  height: 44px;
-  margin-top: 22px; }
-
-.contact-content__form__input__message {
-  font-size: 22px;
-  text-align: center;
-  width: 352px;
-  height: 176px;
-  margin-top: 22px;
-  margin-bottom: 38.5px;
-  padding: 0px; }
-
-#contact-content__button {
-  display: flex;
-  flex: 1;
-  margin-bottom: 44px;
-  background-color: white; }
-
-#contact-content__button__image {
-  height: 132px; }
-
-.page-header {
-  background-color: #c3a4c3;
-  font-weight: normal;
-  text-align: center; }
-
-/*# sourceMappingURL=styles.css.map */
