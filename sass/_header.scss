@@ -4,18 +4,30 @@
   flex: 1;
   background-color: $background-color-alternate;
   position: relative;
-  border-right: 1px solid $background-color-main;
+  border-right: 1px solid $background-color-main; 
+  & header {
+    display: flex;
+    flex: 1;
+  };
+}
 
-  & header, ul, li, nav, a {
-      display: flex;
-      flex: 1;
-  }
+
+.nav-drawer__links__nav{
+  display: flex;
+  flex: 1;
+}
+
+.nav-drawer__ul{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .nav-drawer__links {
   display: flex;
   flex: 1;
-  justify-content: center;
+ 
 }
 
 .nav-drawer__image {

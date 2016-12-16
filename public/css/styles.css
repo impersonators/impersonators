@@ -31,14 +31,23 @@ footer {
   background-color: #7e7e7e;
   position: relative;
   border-right: 1px solid #fbfbfb; }
-  .nav-drawer header, .nav-drawer ul, .nav-drawer li, .nav-drawer nav, .nav-drawer a {
+  .nav-drawer header {
     display: flex;
     flex: 1; }
 
-.nav-drawer__links {
+.nav-drawer__links__nav {
+  display: flex;
+  flex: 1; }
+
+.nav-drawer__ul {
   display: flex;
   flex: 1;
-  justify-content: center; }
+  flex-direction: row;
+  justify-content: space-between; }
+
+.nav-drawer__links {
+  display: flex;
+  flex: 1; }
 
 .nav-drawer__image {
   margin-top: 151px;
