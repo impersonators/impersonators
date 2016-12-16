@@ -37,7 +37,21 @@ footer {
 
 .nav-drawer__links__nav {
   display: flex;
-  flex: 1; }
+  flex: 1;
+  flex-direction: column; }
+
+.nav-drawer__links--title {
+  color: #fbfbfb;
+  text-align: center;
+  font-size: 22px;
+  text-decoration: underline;
+  margin-bottom: 5px; }
+
+.nav-drawer__links--body {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 10px; }
 
 .nav-drawer__ul {
   display: flex;
@@ -48,6 +62,9 @@ footer {
 .nav-drawer__links {
   display: flex;
   flex: 1; }
+  .nav-drawer__links a:hover {
+    color: purple;
+    text-decoration: underline; }
 
 .nav-drawer__image {
   margin-top: 151px;

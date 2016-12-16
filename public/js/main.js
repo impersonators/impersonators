@@ -22,13 +22,11 @@ window.onload = function(){
 		valueClear(messageInput)
 	});
 
-
-
 }
 
 
 
-//change input boxes to greeting on click	
+//change input boxes to greeting on click
 function changeContent(){
 	//set emailInput for this function
 	var emailInput = document.getElementsByClassName('contact-content__form__input')[1];
@@ -50,7 +48,7 @@ function changeContent(){
 		var emailNotice = document.getElementsByClassName('conact-content__form__email__notice')[0];
 		emailNotice.style.display = "block";
 		valueClear(emailInput);
-	};	
+	};
 };
 
 
@@ -59,4 +57,3 @@ function changeContent(){
 function valueClear(input){
 	input.value = " ";
 };
-

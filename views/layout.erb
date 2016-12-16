@@ -12,6 +12,12 @@
 			<header>
 				<div class="nav-drawer__links">
 					<nav class="nav-drawer__links__nav">
+						<div class="nav-drawer__links--title">
+							Sinatra, Inc
+						</div>
+						<div class="nav-drawer__links--body">
+							Your source for the best Frank Sinatra impersonators this side of blue eyes.
+						</div>
 						<ul class="nav-drawer__ul">
 						<% @local_links.each do |url, name| %>
 							<li><a href="<%= url %>"><%= name %></a></li>
@@ -28,7 +34,7 @@
 		<div class="body-container">
 
 			<div class="main-container">
-				
+
 			<%= yield %>
 
 			</div>
