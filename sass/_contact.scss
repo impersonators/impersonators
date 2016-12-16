@@ -57,6 +57,13 @@
 	margin-top: $font-size-jumbo;
 }
 
+.conact-content__form__email__notice{
+	font-size: $font-size-medium;
+	color: red;
+	margin-bottom: 0px;
+	display: none;
+}
+
 .contact-content__form__input__message{
 	font-size: $font-size-jumbo;
 	text-align: center;

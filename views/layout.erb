@@ -11,8 +11,8 @@
 		<div class="nav-drawer">
 			<header>
 				<div class="nav-drawer__links">
-					<nav>
-						<ul>
+					<nav class="nav-drawer__links__nav">
+						<ul class="nav-drawer__ul">
 						<% @local_links.each do |url, name| %>
 							<li><a href="<%= url %>"><%= name %></a></li>
 						<% end %>
