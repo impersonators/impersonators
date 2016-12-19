@@ -21,8 +21,62 @@ window.onload = function(){
 		messageInput.addEventListener('click', function(){
 			valueClear(messageInput)
 		});
-	}
+	};
+
+	//set variables for nav-drawer show
+	var menuButton = document.getElementsByClassName('menu-button')[0]
+	var navDrawer = document.getElementsByClassName('nav-drawer')[0]
+
+	//set nav-drawer to show on menu-button hover
+	menuButton.addEventListener('mouseover', showArrow);
+	menuButton.addEventListener('mouseout', hideArrow);
+	
+
+	//set nav-drawer to show on menu-button click
+	menuButton.addEventListener('click', function (){
+		showNav(navDrawer);
+	})
+
+
 }
+
+//showArrow on hover
+function showArrow(){
+	var arrow = document.getElementsByClassName('menu-button__arrow')[0]
+	arrow.style.display = 'flex';
+}
+
+function hideArrow(){
+	var arrow = document.getElementsByClassName('menu-button__arrow')[0]
+	arrow.style.display = 'none';
+}
+
+//show nav drawer and hide nav drawer
+function showNav(navDrawer){
+	//reset variables in funciton
+	var menuButtonBar = document.getElementsByClassName('menu-button-container')[0]
+	var menuButton = document.getElementsByClassName('menu-button')[0]
+	var arrow = document.getElementsByClassName('menu-button__arrow')[0]
+	navDrawer.style.display = 'flex';
+	menuButtonBar.style.marginLeft = '12.5%';
+	arrow.src = './images/arrow.png';
+	menuButton.addEventListener('click', function(){
+		hideNav(navDrawer)
+	});
+};
+
+function hideNav(navDrawer){
+	var menuButtonBar = document.getElementsByClassName('menu-button-container')[0]
+	var menuButton = document.getElementsByClassName('menu-button')[0]
+	var arrow = document.getElementsByClassName('menu-button__arrow')[0]
+	navDrawer.style.display = 'none';
+	menuButtonBar.style.marginLeft = '0px';
+	arrow.src = 'http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-silver-icons-arrows/008113-glossy-silver-icon-arrows-arrow11-right.png';
+	menuButton.addEventListener('click', function(){
+		showNav(navDrawer)
+	});
+}
+
 
 //change input boxes to greeting on click
 function changeContent(){

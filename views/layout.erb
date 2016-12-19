@@ -7,26 +7,27 @@
 	<script src="js/main.js" type="text/javascript"></script>
 </head>
 <body>
-
 		<div class="nav-drawer">
 			<header>
 				<div class="nav-drawer__links">
 					<nav class="nav-drawer__links__nav">
-						<div class="nav-drawer__links--title">
-							Sinatra, Inc
-						</div>
-						<div class="nav-drawer__links--body">
-							Your source for the best Frank Sinatra impersonators this side of blue eyes.
-						</div>
 						<ul class="nav-drawer__ul">
 						<% @local_links.each do |url, name| %>
-							<li><a href="<%= url %>"><%= name %></a></li>
+							<a href="<%= url %>" class="nav-drawer__a"><li><%= name %></li></a>
 						<% end %>
 						</ul>
 					</nav>
 				</div>
 				<div class="nav-drawer__image">
 
+				</div>
+				<div class="nav_drawer__links__description">
+					<div class="nav-drawer__links__description--title">
+						Sinatra, Inc
+					</div>
+					<div class="nav-drawer__links__description--body">
+						Your source for the best Frank Sinatra impersonators this side of blue eyes.
+					</div>
 				</div>
 			</header>
 		</div>
