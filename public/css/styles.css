@@ -385,6 +385,63 @@ footer {
   border-bottom-style: double;
   border-bottom-color: black; }
 
+.about-container {
+  display: flex;
+  flex: 1;
+  background: url("../images/frank_leaning.jpeg") center/cover;
+  color: white; }
+
+.about-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-left: 20%;
+  min-height: 100vh- 70px; }
+
+.about-content__title {
+  display: flex;
+  flex: 3;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 26.4px;
+  letter-spacing: 2.75px; }
+
+.about-content__description {
+  display: flex;
+  flex: 4;
+  width: 60%;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 2.2px; }
+
+.about-content__payment {
+  width: 60%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center; }
+
+.about-content__payment__text {
+  display: flex;
+  flex: 1; }
+
+.about-content__payment__image {
+  display: flex;
+  flex: 1;
+  height: 110px;
+  width: 30%; }
+
+.about-content__contact {
+  display: flex;
+  flex: 6;
+  background-color: flex;
+  width: 60%; }
+
 .page-header {
   background-color: #c3a4c3;
   font-weight: normal;

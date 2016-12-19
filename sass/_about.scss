@@ -1,0 +1,61 @@
+.about-container{
+	display: flex;
+	flex: 1;
+	background: url('../images/frank_leaning.jpeg') center /cover;
+	color: white;
+}
+.about-content{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	margin-left: 20%;
+	min-height: 100vh-$height-footer;
+}
+
+.about-content__title{
+	display: flex;
+	flex: 3;
+	align-items: center;
+	justify-content: center;
+	width: 60%;
+	text-align: center;
+	text-decoration: underline;
+	font-size: $font-size-jumbo*1.2;
+	letter-spacing: $font-size-jumbo/8;
+}
+
+.about-content__description{
+	display: flex;
+	flex: 4;
+	width: 60%;
+	text-align: center;
+	font-size: $font-size-jumbo;
+	letter-spacing: $font-size-jumbo/10;
+}
+.about-content__payment{
+	width: 60%;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	align-items: center;
+	//justify-content: space-around;
+}
+.about-content__payment__text{
+	display: flex;	
+	flex: 1;
+}
+.about-content__payment__image{
+	display: flex;
+	flex: 1;
+	height: $font-size-jumbo*5;
+	width: 30%;
+}
+
+.about-content__contact{
+	display: flex;
+	flex: 6;
+	background-color: flex;
+	width: 60%;
+}
