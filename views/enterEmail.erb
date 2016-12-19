@@ -1,3 +1,4 @@
+<!-- shows if user tries to submit an email without having @ in email address -->
 <div class="menu-button-container">
     <div class="menu-button">
       <img class="menu-button__hat" src="https://cdn3.iconfinder.com/data/icons/hats-1/100/07-512.png">
@@ -11,7 +12,8 @@
 	<form class="contact-content__form" method="POST" action="/contact">
 		<div id="contact-content__form__empty-content">
 			<input class="contact-content__form__input" type="name" name="name" value="Name">
-			<input class="contact-content__form__input" type="text" name="email" value="Email">
+			<p class="conact-content__form__email__notice">Please enter a valid email address.</p>
+			<input class="contact-content__form__input" type="text" name="email" value="">
 			<input class="contact-content__form__input__message" type="text" name="message" value="Message">
 		</div>
 		<button id="contact-content__button" type="submit"> <img class="button-image" id="contact-content__button__image" src="../images/jack_full.jpg"></button>

@@ -1,6 +1,4 @@
-.omggmo{
-	
-}
+// contains styling for contact.erb, emailSent.erb and enterEmail.erb
 
 #contact-heading{
 	display: flex;
@@ -25,7 +23,7 @@
 }
 
 #contact-content__form__submitted-content {
-  display: none;
+  display: flex;
   flex: 2;
   flex-direction: column;
   align-items: center;
@@ -46,7 +44,7 @@
 }
 
 #contact-content__form__submitted-content{
-	display:none;
+	display:flex;
 	flex: 2;
 	flex-direction: column;
 	align-items:center;
@@ -64,7 +62,7 @@
 	font-size: $font-size-medium;
 	color: red;
 	margin-bottom: 0px;
-	display: none;
+	display: flex;
 }
 
 .contact-content__form__input__message{
