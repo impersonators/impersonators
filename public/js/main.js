@@ -59,7 +59,7 @@ function showNav(navDrawer){
 	var arrow = document.getElementsByClassName('menu-button__arrow')[0]
 	navDrawer.style.display = 'flex';
 	menuButtonBar.style.marginLeft = '12.5%';
-	arrow.src = './images/arrow.png';
+	arrow.src = './images/left-arrow.png';
 	menuButton.addEventListener('click', function(){
 		hideNav(navDrawer)
 	});
